@@ -36,4 +36,6 @@ public class AppplicationHooks {
 		driver.quit();
 	}
 	
+	@After(order = 1)
+	public void tearDown() {}
 }
